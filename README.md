@@ -1,12 +1,13 @@
 # Mission-to-Mars-Documentation
 
-
+![Final Enclosure](final.JPG)
 
 
 
 
 # Recieve Code
 
+```python
 radio.set_group(69)
 
 
@@ -15,6 +16,7 @@ def on_received_value(name, value):
    serial.write_value(name, value)
 
 radio.on_received_value(on_received_value)
+```
 
 # Send Code
 
