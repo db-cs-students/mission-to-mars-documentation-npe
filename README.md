@@ -20,6 +20,7 @@ radio.on_received_value(on_received_value)
 
 # Send Code
 
+```python
 radio.set_group(69)
 
 
@@ -40,4 +41,5 @@ def on_forever():
    led.toggle(0, 0)
    
 basic.forever(on_forever)
+```
  
