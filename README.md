@@ -4,16 +4,15 @@
 
 
 
-# -Code-
 
-# Recieve
+# Recieve Code
 radio.set_group(69)
 
 def on_received_value(name, value):
     serial.write_value(name, value)
 radio.on_received_value(on_received_value)
 
-# Send
+# Send Code
 
 radio.set_group(69)
 
